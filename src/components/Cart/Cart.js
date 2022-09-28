@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = (props) => {
+    const { duration } = props
+    const [min, setMin] = useState(0)
+
+    const newArr = [1, 3, 5, 7]
+
+    const breakAdd = ([index]) => {
+        const num = newArr[index]
+        setMin(num)
+
+    }
+
     return (
         <div className='cart'>
             <div>
@@ -14,17 +25,17 @@ const Cart = () => {
             <div>
                 <h3>Add A Break</h3>
                 <div className='break-info'>
-                    <button>1min</button>
-                    <button>3min</button>
-                    <button>5min</button>
-                    <button>7min</button>
+                    <button onClick={() => breakAdd([0])}><span >1</span> min</button>
+                    <button onClick={() => breakAdd([1])}><span >3</span> min</button>
+                    <button onClick={() => breakAdd([2])}><span >5</span> min</button>
+                    <button onClick={() => breakAdd([3])}><span >7</span> min</button>
                 </div>
             </div>
             <div className='exercise-details'>
                 <h3>Exercise Details</h3>
                 <div>
-                    <p>Exercise Time:</p>
-                    <p>Break Time:</p>
+                    <p>Exercise Time: {duration} min </p>
+                    <p>Break Time: {min} min </p>
                 </div>
             </div>
             <div className='complete-btn'>

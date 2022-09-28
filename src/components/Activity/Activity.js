@@ -2,8 +2,9 @@ import React from 'react';
 import './Activity.css'
 
 const Activity = (props) => {
-    const { name, picture, ageLimit, duration } = props.activity
-    console.log(props.activity)
+    const { addToList, activity } = props
+    const { name, picture, ageLimit, duration } = activity
+    // console.log(props.activity)
     return (
         <div className='activity'>
             <img src={picture} alt="" />
@@ -13,7 +14,7 @@ const Activity = (props) => {
                 <p>Duration: {duration} min </p>
             </div>
             <button className='btn-cart'>
-                <p>Add to list</p>
+                <p onClick={() => addToList(activity.duration)}>Add to list</p>
             </button>
         </div>
     );
