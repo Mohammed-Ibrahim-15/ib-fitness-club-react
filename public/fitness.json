@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Push-Up",
+    "picture": "https://media.istockphoto.com/photos/indian-man-doing-push-ups-at-home-picture-id1312492627?b=1&k=20&m=1312492627&s=170667a&w=0&h=ZkZc8bOc_QdiA6KLcI4kbYqg3uNVXfQxo09IQg3jYqg=",
+    "duration": 5,
+    "ageLimit": "12-30",
+    "id": 1
+  },
+  {
+    "name": "Squats",
+    "picture": "https://blog.fitbit.com/wp-content/uploads/2016/10/ArmStanding.jpg",
+    "duration": 7,
+    "ageLimit": "12-30",
+    "id": 2
+  },
+  {
+    "name": "Plank",
+    "picture": "https://phantom-marca.unidadeditorial.es/fe2e37fdef9def6785ddb7baf4469133/crop/0x0/998x562/resize/1320/f/jpg/assets/multimedia/imagenes/2022/01/07/16415665255536.jpg",
+    "duration": 2,
+    "ageLimit": "18-35",
+    "id": 3
+  },
+  {
+    "name": "Pull-Up",
+    "picture": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/12/pull-up-pullup-gym-1296x728-header-1296x728.jpg?w=1155&h=1528",
+    "duration": 5,
+    "ageLimit": "18-30",
+    "id": 4
+  },
+  {
+    "name": "Lunge",
+    "picture": "https://www.mensjournal.com/wp-content/uploads/2018/02/landminelunge.jpg?quality=82&strip=all",
+    "duration": 2,
+    "ageLimit": "18-35",
+    "id": 5
+  },
+  {
+    "name": "Side-Planks",
+    "picture": "https://hips.hearstapps.com/hmg-prod/images/side-plank-1549646915.jpg",
+    "duration": 1,
+    "ageLimit": "18-30",
+    "id": 6
+  }
+]
