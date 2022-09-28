@@ -20,7 +20,7 @@
 
 .btn-cart {
     width: 100%;
-    background-color: greenyellow;
+    background-color: lightgreen;
     position: absolute;
     bottom: 0;
     border: none;
@@ -32,5 +32,5 @@
 }
 
 .btn-cart:hover {
-    background-color: orange;
+    background-color: green;
 }

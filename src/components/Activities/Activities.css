@@ -1,11 +1,16 @@
 .main-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    background-color: whitesmoke;
 }
 
 .activity-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;
-    margin: 100px 50px;
+    margin: 50px 50px;
+}
+
+.cart-container {
+    background-color: lightgrey;
 }
