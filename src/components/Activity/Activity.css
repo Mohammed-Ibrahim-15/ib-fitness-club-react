@@ -1,0 +1,31 @@
+.activity {
+    width: 300px;
+    height: 510px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    background-color: lightblue;
+}
+
+.activity img {
+    height: 286px;
+    width: 286px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.info {
+    margin: 0 14px;
+}
+
+.btn-cart {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.btn-cart:hover {
+    background-color: orange;
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Activity from '../Activity/Activity';
 import './Activities.css'
 
 const Activities = () => {
@@ -11,9 +12,8 @@ const Activities = () => {
     return (
         <div className='main-container'>
             <div className="activity-container">
-                <h1>Activity</h1>
                 {
-                    activities.map(activity => <p>{activity.name}</p>)
+                    activities.map(activity => <Activity activity={activity}></Activity>)
                 }
 
             </div>
