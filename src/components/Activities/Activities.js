@@ -14,7 +14,7 @@ const Activities = () => {
 
     const addToList = (workoutTime) => {
         // console.log('Hello', activity)
-        const time = workoutTime + duration;
+        const time = duration + workoutTime;
         setDuration(time)
     }
 
@@ -32,7 +32,7 @@ const Activities = () => {
 
             </div>
             <div className="cart-container">
-                <Cart duration={duration}></Cart>
+                <Cart duration={duration} activities={activities}></Cart>
             </div>
         </div>
     );

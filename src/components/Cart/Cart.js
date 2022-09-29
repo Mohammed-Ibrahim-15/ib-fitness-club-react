@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import MySwal from '../Alert/Alert';
 import Alert from '../Alert/Alert';
 import './Cart.css'
@@ -6,13 +7,14 @@ import './Cart.css'
 const Cart = (props) => {
     const { duration } = props
     const [min, setMin] = useState(0)
+    const [cart, setCart] = useState([]);
 
     const newArr = [1, 3, 5, 7]
 
     const breakAdd = ([index]) => {
         const num = newArr[index]
         setMin(num)
-
+        addToDb(num)
     }
 
 
