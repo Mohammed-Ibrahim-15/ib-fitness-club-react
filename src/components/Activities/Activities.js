@@ -29,7 +29,6 @@ const Activities = () => {
                             addToList={addToList}
                         ></Activity>)
                 }
-
             </div>
             <div className="cart-container">
                 <Cart duration={duration} activities={activities}></Cart>

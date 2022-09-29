@@ -5,8 +5,6 @@ const addToDb = id => {
     shoppingCart[id] = id;
     localStorage.setItem('break-time', JSON.stringify(shoppingCart));
 }
-
-
 const getStoredCart = () => {
     let shoppingCart = {};
 
@@ -17,8 +15,6 @@ const getStoredCart = () => {
     }
     return shoppingCart;
 }
-
-
 export {
     addToDb,
     getStoredCart

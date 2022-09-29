@@ -18,7 +18,6 @@ const Question = () => {
                 <div className='question'>
                     <h3>What Does useEffect Do Except Loading Data ?</h3>
                     <p>By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed (we’ll refer to it as our “effect”), and call it later after performing the DOM updates. In this effect, we set the document title, but we could also perform data fetching or call some other imperative API.</p>
-
                 </div>
             </div>
         </div>

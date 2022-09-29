@@ -8,14 +8,11 @@ const Cart = (props) => {
     const [min, setMin] = useState(0)
 
     const newArr = [1, 3, 5, 7]
-
     const breakAdd = ([index]) => {
         const num = newArr[index]
         setMin(num)
         addToDb(num)
     }
-
-
     return (
         <div className='cart'>
             <div>
