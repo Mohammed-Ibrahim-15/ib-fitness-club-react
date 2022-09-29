@@ -7,7 +7,7 @@ const sweetAlert = () => {
     const MySwal = withReactContent(Swal)
 
     MySwal.fire({
-        title: <p>Activity Completed</p>,
+        title: <p>Activity Completed !!</p>,
         didOpen: () => {
         },
     })
