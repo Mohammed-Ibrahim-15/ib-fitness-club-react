@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import MySwal from '../Alert/Alert';
+import Alert from '../Alert/Alert';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -12,6 +14,7 @@ const Cart = (props) => {
         setMin(num)
 
     }
+
 
     return (
         <div className='cart'>
@@ -37,9 +40,7 @@ const Cart = (props) => {
                     <p>Exercise Time: {duration} min </p>
                     <p>Break Time: {min} min </p>
                 </div>
-            </div>
-            <div className='complete-btn'>
-                <button>Activity Completed</button>
+                <Alert></Alert>
             </div>
         </div>
     );

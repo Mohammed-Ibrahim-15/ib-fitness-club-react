@@ -1,0 +1,14 @@
+.complete-btn {
+    text-align: center;
+}
+
+.complete-btn button {
+    background-color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 15px;
+}
+
+.complete-btn button:hover {
+    background-color: orange;
+}
